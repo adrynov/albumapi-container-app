@@ -6,3 +6,13 @@ This backend Album API sample is available in other languages:
 
 | [JavaScript](https://github.com/azure-samples/containerapps-albumapi-javascript) | [Go](https://github.com/azure-samples/containerapps-albumapi-go) | [Python](https://github.com/azure-samples/containerapps-albumapi-python) | [Java](https://github.com/azure-samples/containerapps-albumapi-java) |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------- |
+
+
+export RESOURCE_GROUP="mslearn"
+export LOCATION="northeurope"
+export ENVIRONMENT="mslearn-containers-env"
+export API_NAME="mslearn-music-api"
+
+export GITHUB_USERNAME="adrynov"
+
+export ACR_NAME="acr"$GITHUB_USERNAME
